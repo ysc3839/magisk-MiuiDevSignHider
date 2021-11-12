@@ -1,6 +1,6 @@
-id=MagiskRuntimeResourceOverlay
-name=Magisk Runtime Resource Overlay
+id=MiuiDevSignHider
+name=MIUI Dev Sign Hider
 version=v1
 versionCode=100
-author=Milkice, ysc3839
-description=Template for building Android Runtime Resource Overlay magisk module
+author=ysc3839
+description=MIUI status bar dev sign hider

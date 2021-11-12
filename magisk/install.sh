@@ -142,7 +142,7 @@ on_install() {
 
 set_permissions() {
   # The following is the default rule, DO NOT remove
-  set_perm_recursive $MODPATH 0 0 0755 0644
+  set_perm_recursive $MODPATH 0 0 0755 0644 u:object_r:vendor_overlay_file:s0
 
   # Here are some examples:
   # set_perm_recursive  $MODPATH/system/lib       0     0       0755      0644

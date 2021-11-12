@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.example.overlay.template" platformBuildVersionCode="28" platformBuildVersionName="9">
-    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/>
-    <overlay android:isStatic="true" android:priority="1000" android:targetPackage="com.example"/>
+<manifest android:versionCode="31" android:versionName="12" package="com.miui.systemui.overlay.devsignhider" xmlns:android="http://schemas.android.com/apk/res/android">
+	<application android:extractNativeLibs="false"/>
+	<uses-sdk android:minSdkVersion="31" android:targetSdkVersion="31"/>
+	<overlay android:priority="1000" android:targetPackage="com.android.systemui" android:isStatic="true"/>
 </manifest>
